@@ -1,0 +1,188 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/1f/d7/c2/1fd7c2baa60f2c03fa65aff0ac5882e3.jpg);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    /*Width: acnho // height: alto*/
+    width: 100%;
+    height: 60px;
+}
+
+header nav {
+    display: flex;
+    /*Justificar a la derecha*/
+    justify-content: flex-end;
+}
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;
+    display: flex;
+    /*Eliminar puntitos*/
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+nav .nav-right-section a{
+    margin-right: 25px;
+    color: rgb(21, 21, 21);
+}
+nav .nav-right-section .menu{
+    background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    margin-right: 20px;
+}
+
+nav .nav-right-section .foto { 
+    background-image: url(https://lh3.googleusercontent.com/ogw/AAEL6sjxD3PKnD1Yv8Ke0YbbHXvBqSNZDNCMXTXCcURPJA=s32-c-mo);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-size: contain;
+}
+
+main {
+    margin-top: 58px;
+    text-align: center;
+}
+
+main .main-logo img{
+    width: 310px;
+    height: 110px;
+}
+
+main .main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+main .main-input-container{
+    width: 500px;
+    border-radius: 80px;
+    border: 1px solid rgb(147, 148, 150);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+main .main-input input{
+    border: none;
+    width: 450px;
+    height: 40px;
+}
+
+main .main-input-container:hover {
+    box-shadow: 0.5px 1px 1px 1px #9e9c9c;
+}
+
+main .main-input .search-icon{
+    background-image: url(https://img.icons8.com/android/24/000000/search.png);
+   background-position: center;
+   background-size: contain;
+    width: 15px;
+    background-repeat: no-repeat;
+    height: 15px;
+    margin-left: 12px;
+}
+
+main .main-input .micro-icon{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png); 
+    width: 18px;
+    height: 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 15px;
+}
+
+main .main-input .cam-icon{
+    background-image: url(https://fonts.gstatic.com/s/i/productlogos/lens_camera/v1/192px.svg);
+    width: 24px;
+    height: 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 12px;
+}
+
+main .main-buttons{
+    width: 550px;
+    margin: 0 auto;
+}
+
+main .main-buttons div{
+    display: inline-block;
+}
+
+main .main-buttons button{
+    border: none;
+}
+
+main .main-buttons button{
+    border: 0;
+    height: 36px;
+    /* Fondo de botones */
+    background-color: #f8f9fa;
+    font-size: 14px;
+    /* Color de letras antes de hover */
+    color: #3c4043;
+    /* Redondeamos botones */
+    border-radius: 4px;
+    /* Margen interno */
+    padding: 0 15px;
+    /* Margen entre botones */
+    margin-right: 15px;
+    border: 1px solid #f8f9fa;
+}
+
+main .main-buttons button:hover{
+    box-shadow:0 1px 1px rgba(0,0,0,.1);
+    /* background-color:#f8f9fa; */
+    /* Cambia borde al hacer hover */
+    border:1px solid #dadce0;
+    /* Cambia color letras (muy leve) al hacer hover */
+    color:#202124;
+    cursor:pointer;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    font-size: 13px;
+    /*Footer dividido en columnas*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    /*Posiciona el footer al final*/
+    bottom: 0%;
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+}
+
+footer .footer-left{
+    justify-self: left;
+    
+}
+
+footer .footer-right{
+    justify-self: right;
+}
+
+footer ul li a{
+    color: #70757a;
+    margin: 10px;
+}
